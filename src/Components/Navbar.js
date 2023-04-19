@@ -1,29 +1,40 @@
 import React from 'react'
 
 export default function Navbar() {
+
+
+
+
+    // $(document).ready(function () {
+    //     $(".menu-button").click(function () {
+    //         $(".menu-bar").toggleClass("open");
+    //     })
+    // })
+
+
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand" href="#">Navbar</a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+        <>
 
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#">Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Link</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" href="#">Disabled</a>
-                        </li>
-                    </ul>
 
-                </div>
-            </nav>
-        </div>
+            <ul class="menu">
+
+                <li title="home"><a href="#" class="menu-button home">menu</a></li>
+
+                <li title="search"><a href="#" class="search">search</a></li>
+                <li title="pencil"><a href="#" class="pencil">pencil</a></li>
+                <li title="about"><a href="#" class="active about">about</a></li>
+                <li title="archive"><a href="#" class="archive">archive</a></li>
+                <li title="contact"><a href="#" class="contact">contact</a></li>
+            </ul>
+
+            <ul class="menu-bar">
+                <li><a href="#" class="menu-button">Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Editorial</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </>
+
     )
 }
