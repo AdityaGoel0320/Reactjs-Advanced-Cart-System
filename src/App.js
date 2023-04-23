@@ -2,52 +2,24 @@ import React from 'react';
 import './App.css';
 import TechStack from './Components/TechStack';
 import Navbar from './Components/Navbar';
+import Intro from './Components/Intro';
+import Footer from './Components/Footer';
+import AboutMe from './Components/AboutMe';
+import Projects from './Components/Projects';
+import ContactMe from './Components/ContactMe';
 
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
-      <h1>Portfolio Website</h1>
-
-
-      
-
-
-      <div class="context">
+      <Navbar />
+      <Intro />
+      <AboutMe />
       <TechStack />
+      <Projects />
+      <ContactMe />
+      {/* <Achievements/> */}
 
-        {/* <h1>Pure Css Animated Background</h1> */}
-    </div>
-
-
-<div class="area" >
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div >
-
-
-
-<div class="hero"> 
-      <TechStack />
-  <div class="cube"></div>
-  <div class="cube"></div>
-  <div class="cube"></div>
-  <div class="cube"></div>
-  <div class="cube"></div>
-  <div class="cube"></div>
-</div>
-
-
+      <Footer />
     </>
   );
 }

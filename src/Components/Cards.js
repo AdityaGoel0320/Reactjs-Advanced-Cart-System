@@ -6,7 +6,6 @@ export default function Cards(props) {
       <img className='cards_container_img' src={props.img} alt={props.name} />
       <h5 className='cards_container_name'>
         {props.name}
-
       </h5>
     </div>
   )
