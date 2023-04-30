@@ -17,9 +17,8 @@ function App() {
       <TechStack />
       <Projects />
       <ContactMe />
-      {/* <Achievements/> */}
-
       <Footer />
+      {/* <Achievements/> */}
     </>
   );
 }
