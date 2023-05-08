@@ -109,6 +109,7 @@ export default function TechStack() {
     }, {
       name: "Netlify",
       img: "https://jigarsable.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fexternal-tal-revivo-shadow-tal-revivo%2F96%2Fnull%2Fexternal-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png&w=128&q=75",
+      // img : "../images/contact.jpg", 
       type: "Other",
     },
 
