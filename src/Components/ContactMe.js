@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContactMe() {
   return (
     <>
-    <div>ContactMe</div>
+    <div className='uppercase mx-4'>ContactMe</div>
 
     <img src = "../Images/contact.jpg" alt="erhrtht" />
     <form action="">
