@@ -79,7 +79,7 @@ export default function Intro() {
 
 
 
-            <h1 id='h1' className='h1 bg-red-500'>Aditya Goel</h1>
+            <h1 id='h1' className='h1'>Aditya Goel</h1>
             </div>
         </>
     )

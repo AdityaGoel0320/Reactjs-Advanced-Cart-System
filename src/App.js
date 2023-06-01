@@ -6,6 +6,7 @@ import Intro from './Components/Intro';
 import Footer from './Components/Footer';
 import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
+import Achievements from './Components/Achievements';
 import ContactMe from './Components/ContactMe';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <AboutMe />
       <TechStack />
       <Projects />
+      <Achievements/>
       <ContactMe />
       <Footer />
       {/* <Achievements/> */}
