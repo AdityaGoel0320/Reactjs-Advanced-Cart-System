@@ -119,10 +119,10 @@ export default function TechStack() {
     <div className='bg-orange-300'>
       TechStack
 
-      <div className='techstack_container'>
+      <div className='techstack_container flex justify-center items-center flex-wrap m-24'>
         {
           arr.map((x) => {
-            return <Cards name={x.name} img={x.img} />
+            return <Cards className="mx-24" name={x.name} img={x.img} />
           })
         }
       </div>
