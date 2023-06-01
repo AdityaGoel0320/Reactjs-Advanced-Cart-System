@@ -71,7 +71,7 @@ export default function Intro() {
 
     return (
         <>
-            <div>
+            <div className='bg-blue-300 h-72'>
                 Welcome to my portfolio website! I'm <span>ADITYA GOEL</span>,
                 I am into
 
@@ -79,8 +79,8 @@ export default function Intro() {
 
 
 
+            <h1 id='h1' className='h1 bg-red-500'>Aditya Goel</h1>
             </div>
-            <h1 id='h1' className='h1'>Aditya Goel</h1>
         </>
     )
 }

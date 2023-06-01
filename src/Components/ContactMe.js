@@ -3,12 +3,14 @@ import React from 'react'
 export default function ContactMe() {
   return (
     <>
-    <div className='uppercase mx-4'>ContactMe</div>
+      <div className='uppercase  bg-yellow-300 h-72'>
+        <h1>
 
-    <img src = "../Images/contact.jpg" alt="erhrtht" />
-    <form action="">
-        <label htmlFor="form handling">forms</label>
-    </form>
+        ContactMe
+        </h1>
+
+        <img className='h-24' src="../Images/contact.jpg" alt="erhrtht" />
+      </div>
     </>
   )
 }

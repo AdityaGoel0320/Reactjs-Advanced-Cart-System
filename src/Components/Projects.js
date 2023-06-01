@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <div className='bg-purple-300 h-72'>Projects</div>
   )
 }

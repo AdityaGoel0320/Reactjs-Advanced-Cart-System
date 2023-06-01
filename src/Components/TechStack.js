@@ -116,7 +116,7 @@ export default function TechStack() {
 
   ]
   return (
-    <div>
+    <div className='bg-orange-300'>
       TechStack
 
       <div className='techstack_container'>
