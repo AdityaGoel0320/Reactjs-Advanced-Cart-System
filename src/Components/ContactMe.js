@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContactMe() {
   return (
     <>
-      <div className='uppercase  bg-yellow-300 h-72'>
+      <div id="contact" className='uppercase  bg-yellow-300 h-72'>
         <h1>
 
         ContactMe
