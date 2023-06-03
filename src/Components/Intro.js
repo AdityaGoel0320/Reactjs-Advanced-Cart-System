@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import Typewriter from 'react-typewriter-effect';
+
+import TypewriterEffect from './typeWriterEffect';
 
 export default function Intro() {
     // let h1 = document.getElementById("h1")
@@ -35,51 +38,20 @@ export default function Intro() {
     // typewriter();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
     return (
         <>
-            <div className='bg-blue-300 h-72'>
-                Welcome to my portfolio website! I'm <span>ADITYA GOEL</span>,
-                I am into
+            <div className=''>
 
-                {/* animation linke jigar sable */}
+                <p className='flex gap-3 items-center'>
+                    <img className='h-8' src="../Images/wavyHand.png" alt=" " /><span className='text-3xl'>Hey</span>
+                </p>
 
-
-
-            <h1 id='h1' className='h1'>Aditya Goel</h1>
+                <p>
+                I'm Aditya Goel
+                </p>
+                <p>
+                    I am into <TypewriterEffect />
+                </p>
             </div>
         </>
     )
