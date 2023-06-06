@@ -10,6 +10,11 @@ const TypewriterEffect = () => {
             .typeString("Hello, world!")
             .start(1000);
         }}
+
+
+
+
+        
       />
     );
   };
