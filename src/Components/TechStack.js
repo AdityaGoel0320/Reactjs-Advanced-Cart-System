@@ -117,9 +117,12 @@ export default function TechStack() {
   ]
   return (
     <div className='bg-orange-300'>
-      TechStack
+      <h1 className='text-3xl font-bold uppercase flex justify-center items-center m -5'>
 
-      <div className='techstack_container flex justify-center items-center flex-wrap m-24'>
+      TechStack
+      </h1>
+
+      <div className='techstack_container flex justify-center items-center flex-wrap m-5 gap-5'>
         {
           arr.map((x) => {
             return <Cards className="mx-24" name={x.name} img={x.img} />
