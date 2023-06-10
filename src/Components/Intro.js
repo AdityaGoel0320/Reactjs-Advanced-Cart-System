@@ -40,18 +40,18 @@ export default function Intro() {
 
     return (
         <>
-            <div className=''>
+            <div className='' id="intro">
 
                 <p className='flex gap-3 items-center'>
                     <img className='h-8' src="../Images/wavyHand.png" alt=" " /><span className='text-3xl'>Hey</span>
                 </p>
 
-                <p>
+                <br />
                 I'm Aditya Goel
-                </p>
-                <p>
-                    I am into <TypewriterEffect />
-                </p>
+                <br />
+
+                I am into <span>FRONTEND</span>
+                I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.
             </div>
         </>
     )
