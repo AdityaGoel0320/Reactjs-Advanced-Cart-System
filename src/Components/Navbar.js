@@ -4,7 +4,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div  className=' bg-black text-white flex justify-between items-center m-1 p-5 sticky top-0 w-full left-0 bg-opacity-50 '>
+            <div  className='  flex justify-between items-center p-3 bg-black'>
 
                 <div className='text-2xl font-bold'>
                     <h1>Logo</h1>

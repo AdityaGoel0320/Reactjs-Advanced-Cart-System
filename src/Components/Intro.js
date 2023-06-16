@@ -40,22 +40,26 @@ export default function Intro() {
 
     return (
         <>
-            <div className='' id="intro">
+
+
+            <div className='flex h-full items-center justify-center' id="intro">
+
+                <div>
 
                 <p className='flex gap-3 items-center'>
                     <img className='h-8' src="Images/wavyHand.png" alt=" " /><span className='text-3xl'>Hey</span>
                 </p>
-
                 <br />
-
-
-
-
                 I'm Aditya Goel
                 <br />
-
-                I am into <span>FRONTEND</span>
+                I am into <span>FRONTEND</span><br />
                 I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.
+
+                </div>
+
+                <div className="profile">
+                    <img src="Images/avatar.jpg" alt="" />
+                </div>
             </div>
         </>
     )
