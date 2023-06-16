@@ -11,7 +11,7 @@ export default function Navbar() {
                 <div className='text-2xl font-bold'>
                     <h1>Logo</h1>
                 </div>
-                <div>
+                <div id='ul'>
 
 
 
