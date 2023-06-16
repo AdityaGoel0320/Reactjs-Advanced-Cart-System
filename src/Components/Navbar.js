@@ -1,7 +1,5 @@
 import React from 'react'
 
-import DarkModeToggle from './DarkModeToggle';
-
 export default function Navbar() {
 
     return (
