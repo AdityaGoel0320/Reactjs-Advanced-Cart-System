@@ -43,7 +43,7 @@ export default function Intro() {
             <div className='' id="intro">
 
                 <p className='flex gap-3 items-center'>
-                    <img className='h-8' src="../Images/wavyHand.png" alt=" " /><span className='text-3xl'>Hey</span>
+                    <img className='h-8' src="Images/wavyHand.png" alt=" " /><span className='text-3xl'>Hey</span>
                 </p>
 
                 <br />
