@@ -1,7 +1,59 @@
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 body{
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+}
+
+
+@media (max-width : 320px){
+    html {
+        font-size: 35%;
+    }
+
+}
+
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+    html {
+        font-size: 43.75%;
+    }
+
+}
+
+@media (min-width : 481px) and (max-width : 768px) {
+    html {
+        font-size: 53.125%;
+    }
+
+}
+@media (min-width : 769px) and (max-width : 1023px) {
+    html {
+        font-size: 62.5%;
+    }
+
+}
+
+
+@media (min-width : 1024px) and (max-width : 1200px) {
+    html {
+        font-size: 71.85%;
+    }
+
+}
+
+
+@media (min-width : 1201px){
+    html {
+        font-size: 77%;
+    }
 
 }
