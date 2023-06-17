@@ -15,6 +15,9 @@ export default function Navbar() {
 
                     <ul className="flex justify-between items-center gap-5">
                         <a href=""><li>Home</li></a>
+
+
+                        
                         <a href=""><li>About</li></a>
                         <a href=""><li>Projects</li></a>
                         <a href="#contact"><li>Contact</li></a>
