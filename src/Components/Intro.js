@@ -42,12 +42,13 @@ export default function Intro() {
         <>
 
 
-            <div className='flex h-full items-center justify-center' id="intro">
+            <div className='flex h-full items-center justify-center border border-8 border-red-700' id="intro">
 
-                <div>
+                <div className=' border border-8 border-red-700'>
 
                 <p className='flex gap-3 items-center'>
-                    <img className='h-8' src="Images/wavyHand.png" alt=" " /><span className='text-3xl'>Hey</span>
+                    <img className='h-8' src="Images/wavyHand.png" alt=" " />
+                    <span className='text-3xl'>Hey</span>
                 </p>
                 <br />
                 I'm Aditya Goel
