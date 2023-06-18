@@ -61,7 +61,14 @@ export default function Intro() {
                 <div className="profile">
                     <img src="Images/avatar.jpg" alt="" />
                 </div>
+
+
+
+               
             </div>
+            <button className=' text-3xl  tracking-in-contract-bck'>
+                    Aditya goel
+                </button>
         </>
     )
 }
