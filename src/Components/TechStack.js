@@ -36,7 +36,7 @@ export default function TechStack() {
 
 
         <div className="text-3xl-m-5 p-3 bg-white " id='techStackBtn'>
-          <button className='bg-black' onClick={() => filterItem("All")}>All</button>
+          <button className='' onClick={() => filterItem("All")}>All</button>
           <button onClick={() => filterItem("Frontend")}>frontend</button>
           <button onClick={() => filterItem("Backend")}>Backend</button>
           <button onClick={() => filterItem("Other")}>Other</button>
