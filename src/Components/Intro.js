@@ -33,9 +33,9 @@ export default function Intro() {
 
                
             </div>
-            <button className=' text-3xl  tracking-in-contract-bck'>
+            {/* <button className=' text-3xl  tracking-in-contract-bck'>
                     Aditya goel
-                </button>
+                </button> */}
         </>
     )
 }
