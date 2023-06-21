@@ -4,7 +4,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="fixed w-full">
+            <div className="fixed top-0 z-100 w-full opacity-50 mb-12">
 
                 <div className='  flex justify-between items-center p-3 bg-black'>
 
@@ -31,6 +31,8 @@ export default function Navbar() {
 
                 </div>
             </div>
+
+
 
 
         </>

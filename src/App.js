@@ -17,14 +17,14 @@ function App() {
       {/* <Link /> */}
       <Navbar />
       <Intro />
-      {/* <AboutMe /> */}
-      {/* <TechStack /> */}
-      {/* <Projects /> */}
-      {/* <Achievements /> */}
-      {/* <ContactMe /> */}
-      {/* <Footer /> */}
+      <AboutMe />
+      <TechStack />
+      <Projects />
+      <Achievements />
+      <ContactMe />
+      <Footer />
 
-      {/* <Achievements/> */}
+      <Achievements/>
     </>
   );
 
