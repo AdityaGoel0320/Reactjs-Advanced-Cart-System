@@ -18,6 +18,12 @@ export default function TechStack() {
         return x.type === clickedType
 
       })
+
+
+
+
+
+      
       setcustomArr(ans)
       
     }
