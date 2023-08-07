@@ -18,19 +18,37 @@ const Cart = () => {
 
 
     let removeItem = (id) => {
-        console.log("dsfgfgdf")
-        console.log("now using displatech to make fnc run ")
         return dispatch({
             type: "REMOVE_ITEM",
             payload: id
         })
 
     }
+    let clearCart = () => {
+        return dispatch({
+            type : "CLEAR_CART"
+        })
 
+    }
+
+    let increment = (id)=>{
+        return dispatch({
+            type : "INCREMENT" , 
+            payload : id 
+        })
+    }
+
+
+    let decrement =(id)=>{
+        return dispatch({
+            type : "DECREMENT" , 
+            payload : id 
+        })
+    }
 
     return (
         <>
-            <CartContext.Provider value={{...state , removeItem}}>
+            <CartContext.Provider value={{ ...state, removeItem  , clearCart , increment , decrement}}>
                 <Contextcart />
             </CartContext.Provider>
 

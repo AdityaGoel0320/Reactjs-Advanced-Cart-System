@@ -12,7 +12,7 @@ const Item = (props) => {
         description
     } = props;
 
-    const { removeItem } = useContext(CartContext)
+    const { removeItem, increment , decrement } = useContext(CartContext)
 
     return (
         <>
@@ -27,9 +27,9 @@ const Item = (props) => {
                 </div>
 
                 <div className="add-minus-quantity">
-                    <i className="fas fa-minus minus"></i>
+                    <i className="fas fa-minus minus " onClick={()=>decrement(id)}></i>
                     <input type="text" placeholder={quantity} disabled />
-                    <i className="fas fa-plus add" ></i>
+                    <i className="fas fa-plus add" onClick={() => increment(id)}></i>
                 </div>
 
                 <div className="price">
