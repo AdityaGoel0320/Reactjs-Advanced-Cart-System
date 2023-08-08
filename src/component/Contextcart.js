@@ -7,7 +7,7 @@ import { CartContext } from './Cart';
 const Contextcart = () => {
 
 
-    const { items  , clearCart} = useContext(CartContext);
+    const { items  , clearCart, totalAmount , totalItem} = useContext(CartContext);
 
     if(items.length===0){
         return(
@@ -20,17 +20,17 @@ const Contextcart = () => {
 
                 <div className="cart-icon">
                     <img src="./images/cart.png" alt="cart-icon" className='' />
-                    <p>0</p>
+                    <p>{totalItem}</p>
                 </div>
             </header>
 
             <section className='main-cart-section'>
                 <h1>Shopping Cart</h1>
-                <p className="total-items">you have  <span className='total-items-count'> 0</span> items in yout cart </p>
+                <p className="total-items">you have  <span className='total-items-count'>{totalItem}</span> items in yout cart </p>
 
              
                 <div className="card-total">
-                    <h3>Cart total : <span>0rs</span>
+                    <h3>Cart total : <span>{totalAmount}rs</span>
 
                     </h3>
                     <button>Checkout</button>
@@ -54,13 +54,13 @@ const Contextcart = () => {
 
                 <div className="cart-icon">
                     <img src="./images/cart.png" alt="cart-icon" className='' />
-                    <p>7</p>
+                    <p>{totalItem}</p>
                 </div>
             </header>
 
             <section className='main-cart-section'>
                 <h1>Shopping Cart</h1>
-                <p className="total-items">you have  <span className='total-items-count'> 7</span> items in yout cart </p>
+                <p className="total-items">you have  <span className='total-items-count'> {totalItem}</span> items in yout cart </p>
 
                 <div className="cart-items">
                     <div className="cart-items-container">
@@ -87,7 +87,7 @@ const Contextcart = () => {
                 </div>
 
                 <div className="card-total">
-                    <h3>Cart total : <span>2000rs</span>
+                    <h3>Cart total : <span>{totalAmount} rs</span>
 
                     </h3>
                     <button>Checkout</button>
