@@ -23,10 +23,10 @@ export const reducer = (state, action) => {
             if (x.id === action.payload) {
                 return { ...x, quantity: x.quantity + 1 }
             }
-            return x ; 
+            return x;
         })
 
-        return {...state , items:updatedCart}
+        return { ...state, items: updatedCart }
 
     }
 
@@ -37,38 +37,40 @@ export const reducer = (state, action) => {
             if (x.id === action.payload) {
                 // let newQuantity =  x.quantity -1  ; 
                 // if(newQuantity>0){
-                    return { ...x, quantity: x.quantity-1 }
+                return { ...x, quantity: x.quantity - 1 }
 
                 // }
             }
-            return x ; 
-        }).filter((x)=>{
-            return x.quantity!==0 ; 
+            return x;
+        }).filter((x) => {
+            return x.quantity !== 0;
         })
 
-        return {...state , items:updatedCart}
+        return { ...state, items: updatedCart }
 
     }
 
 
     if (action.type === "GET_TOTAL") {
-        let { totalItem, totalAmount } = state.items.reduce(
-          (accum, curVal) => {
+        let { totalItem, totalAmount } = state.items.reduce((accum, curVal) => {
             let { price, quantity } = curVal;
-    
             let updatedTotalAmount = price * quantity;
-            accum.totalAmount += updatedTotalAmount;
-    
-            accum.totalItem += quantity;
+            accum.totalAmount = accum.totalAmount + updatedTotalAmount;
+
+
+            accum.totalItem = accum.totalItem + quantity;
             return accum;
-          },
-          {
-            totalItem: 0,
-            totalAmount: 0,
-          }
+        },
+            {
+                totalItem: 0,
+                totalAmount: 0,
+            }
         );
-        return { ...state, totalItem, totalAmount };
-      }
+        return { ...state, totalItem , totalAmount };
+    }
+
+
+
 
 
     return state
